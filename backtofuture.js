@@ -13,7 +13,7 @@ angular.module('backtofuture', [])
                         }, 2000, 'swing', function() {
                             $(element).hide();
                         });
-                    }, 5000);
+                    }, 1000 * 60);
                 }
             };
         }
