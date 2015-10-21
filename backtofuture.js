@@ -5,7 +5,8 @@ angular.module('backtofuture', [])
             return {
                 link: function(scope, element, attrs) {
                     $interval(function() {
-                        $(element).addClass('delorean');
+                        $(element).addClass('delorean')
+                            .attr('src', 'images/delorean.png');
                         $(element).css('left', '1500px').show();
                         $(element).animate({
                             left: '-250px'
