@@ -1,0 +1,12 @@
+{
+    "name": "angular-backtofuture",
+    "main": [
+        "./backtofuture.js",
+        "./backtofuture.css",
+        "./delorean.png"
+    ],
+    "ignore": [],
+    "dependencies": {
+        "angular": "~1"
+    }
+}
